@@ -6,9 +6,9 @@ export default {
   ],
   theme: {
     fontWeight: {
-      small: 200,
+      light: 200,
       normal: 400,
-      bold: 600
+      heavy: 600
     },
     screens: {
       'sm': '320px',
@@ -28,8 +28,8 @@ export default {
         blue: 'hsl(212, 86%, 64%)',
         // Neutral
         veryDarkBlue: 'hsl(234, 12%, 34%)',
-        veryDarkBlue: 'hsl(229, 6%, 66%)',
-        veryDarkBlue: 'hsl(0, 0%, 98%)'
+        grayishBlue: 'hsl(229, 6%, 66%)',
+        veryLightGray: 'hsl(0, 0%, 98%)'
       },
       fontSize: {
         base: '15px'

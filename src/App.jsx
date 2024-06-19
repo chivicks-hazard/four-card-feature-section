@@ -1,8 +1,14 @@
-import React from 'react'
+import Cards from "./components/Cards"
+import Header from "./components/Header"
 
 const App = () => {
   return (
-    <div className='text-5xl text-green-500'>App</div>
+    <div className="container mx-auto">
+      <div className="flex flex-col pt-5 md:w-11/12 mx-auto">
+        <Header />
+        <Cards />
+      </div>
+    </div>
   )
 }
 
