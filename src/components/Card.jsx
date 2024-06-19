@@ -1,12 +1,10 @@
-const Card = ({children, borderColor}) => {
+const Card = ({children, index}) => {
+    const colors = ['cyan', 'red', 'orange', 'blue'];
+
     return (
-        <div className={`border-t-4 rounded-lg border-t-${borderColor} shadow-2xl w-72 p-6`}>
-            <div className="flex flex-col h-full justify-between">
-                <div>
-                    {children}
-                </div>
-            </div>
-        </div>
+        <>
+            {children}
+        </>
     )
 }
 
