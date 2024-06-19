@@ -1,4 +1,3 @@
-import React from 'react';
 import Card from './Card';
 import Supervisor from '../assets/images/icon-supervisor.svg?react';
 import TeamBuilder from '../assets/images/icon-team-builder.svg?react';
