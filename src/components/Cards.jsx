@@ -54,7 +54,7 @@ const Cards = () => {
                                 <p className="font-light mt-2 text-grayishBlue">
                                     {cards[1].description}
                                 </p>
-                                <Supervisor className="float-end mt-4" />
+                                <TeamBuilder className="float-end mt-4" />
                             </div>
                         </div>
                     </div>
@@ -67,7 +67,7 @@ const Cards = () => {
                                 <p className="font-light mt-2 text-grayishBlue">
                                     {cards[2].description}
                                 </p>
-                                <Supervisor className="float-end mt-4" />
+                                <Karma className="float-end mt-4" />
                             </div>
                         </div>
                     </div>
@@ -82,7 +82,7 @@ const Cards = () => {
                                 <p className="font-light mt-2 text-grayishBlue">
                                     {cards[3].description}
                                 </p>
-                                <Supervisor className="float-end mt-4" />
+                                <Calculator className="float-end mt-4" />
                             </div>
                         </div>
                     </div>
